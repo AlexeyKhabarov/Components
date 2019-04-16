@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Email Address</title>
+    <script src="../../dist/toolkit.js"></script>
+</head>
+<body>
+    <h1>Simple version</h1>
+    <div class = "js-newEmailAddress-sunny"></div>
+    <script>
+        (function () {
+            'use strict';
+
+            const sunnyNewEmailAddress = new NewEmailAddress(document.querySelector('.js-newEmailAddress-sunny'));
+            sunnyNewEmailAddress.render();
+
+        })();
+    </script>
+</body>
+</html>
