@@ -1,7 +1,7 @@
-import {emailHelper} from './email-helper/email-helper';
+import {EmailHelper} from './email-helper/email-helper';
 
 /* eslint-disable */
 import _ from './index.scss';
 /* eslint-enable */
 
-window.emailHelper = emailHelper;
+window.EmailHelper = EmailHelper;

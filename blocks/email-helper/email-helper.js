@@ -7,7 +7,7 @@ import _ from './email-helper.scss';
 
 export class EmailHelper extends Block {
   get bemName () {
-    return 'textbox';
+    return 'email-helper';
   }
   template (data) {
     return template(data);
