@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>New Email Address</title>
+    <title>Email Address Helper</title>
     <script src="../../dist/toolkit.js"></script>
 </head>
 <body>
     <h1>Simple version</h1>
-    <div class = "js-newEmailAddress-sunny"></div>
+    <div class = "js-email-helper"></div>
     <script>
         (function () {
             'use strict';
 
-            const sunnyNewEmailAddress = new NewEmailAddress(document.querySelector('.js-newEmailAddress-sunny'));
-            sunnyNewEmailAddress.render();
+            const emailHelper = new EmailHelper();
+            emailHelper.render(document.querySelector('.js-email-helper'));
 
         })();
     </script>

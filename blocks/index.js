@@ -1,8 +1,7 @@
-import {Textbox} from './textbox/textbox';
-import {NewEmailAddress} from './newEmailAddress/newEmailAddress';
+import {emailHelper} from './email-helper/email-helper';
+
 /* eslint-disable */
 import _ from './index.scss';
 /* eslint-enable */
 
-window.Textbox = Textbox;
-window.NewEmailAddress = NewEmailAddress;
+window.emailHelper = emailHelper;
